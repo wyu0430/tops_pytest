@@ -10,7 +10,7 @@ class Test_Homepage_Process(unittest.TestCase):
     def test_homepage_process(self):
         """首页流程测试"""
         homepage=HomePage()
-        homepage.login('15157163734', '147852')
+        homepage.login('15157163734', 'a1478520B')
         city_id = 112
         res1 = homepage.get_landing_first_page(city_id)
         json = res1.json

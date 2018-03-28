@@ -8,7 +8,7 @@ class Test_Single_Interface(unittest.TestCase):
     def test_get_landing_first_page(self):
         """首页get_landing_first_page"""
         homepage = HomePage()
-        homepage.login('15157163734', '147852')
+        homepage.login('15157163734', 'a1478520B')
         city_id = 112
         res = homepage.get_landing_first_page(city_id)
         json = res.json
