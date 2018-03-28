@@ -5,10 +5,20 @@ from Apis.customer_api import Customer
 from common import public_configure
 
 login_name = "15157163734"
-password = "147852"
+password = "a1478520B"
 
 
 class TestCustomerSingleInterface(unittest.TestCase):
+
+    def test_login(self):
+        """登录接口"""
+        customer = Customer()
+        res = customer.login( login_name, password )
+        json = res.json
+        code = res.status_code
+        assert (json['Code'] == 0)
+        assert (code == 200)
+        assert (res.elapsed.seconds <= 3)
 
     def test_add_customer(self):
         """添加客户接口"""
@@ -79,10 +89,17 @@ class TestCustomerSingleInterface(unittest.TestCase):
 
     def test_delete_customer(self):
         """删除客户接口"""
-        testcustomersingleinterface = TestCustomerSingleInterface()
-        customer_id = testcustomersingleinterface.test_add_customer()
         customer = Customer()
         customer.login( login_name, password )
+        phone = public_configure.PublicConfigure.random_phone()
+        customer_name = '自动化新增' + public_configure.PublicConfigure.random_name()
+        res = customer.add_customer( phone, customer_name, 1, 2 )
+        json = res.json
+        code = res.status_code
+        customer_id = json['Data']['customerId']
+        assert (json['Code'] == 0)
+        assert (code == 200)
+        assert (res.elapsed.seconds <= 3)
         res = customer.delete_customer( customer_id )
         json = res.json
         code = res.status_code
@@ -90,23 +107,3 @@ class TestCustomerSingleInterface(unittest.TestCase):
         assert (code == 200)
         assert (res.elapsed.seconds <= 3)
 
-    def test_appointment_customer(self):
-        """预约带看接口"""
-        customer = Customer()
-        customer.login(login_name, password)
-        applyType = 7
-        bizTime = '2018-1-4 20:00:00'
-        brokerId = 34108
-        buildingId = 9
-        consultantId = 0
-        customerId = 0
-        orderNo = 0
-        visitType = 2
-        recommendId = 0
-        res = customer.appointment_customer(applyType, bizTime, brokerId, buildingId, consultantId,
-                                            customerId, orderNo, recommendId, visitType)
-        json = res.json
-        code = res.status_code
-        assert (json['Code'] == 0)
-        assert (code == 200)
-        assert (res.elapsed.seconds <= 3)

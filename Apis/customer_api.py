@@ -25,11 +25,12 @@ class Customer( object ):
 
     def login(self, username, password):
         """获取登录基本参数"""
-        res = self.__login( username, password ).json
-        ak = res['Data']['AccessToken']
+        res = self.__login( username, password )
+        ak = res.json['Data']['AccessToken']
         self.session.headers['Authorization'] = ak
         # uk = res['Data']['UserToken']
         # broker_id = res['Data']['BrokerID']
+        return res
 
     @sign()
     @request( url='/broker-service-api/v1/customer/addEntity4App', method='post' )
