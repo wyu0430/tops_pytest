@@ -5,7 +5,7 @@ from Apis.customer_api import Customer
 from common import public_configure
 
 login_name = "15157163734"
-password = "147852"
+password = "a1478520B"
 
 
 class TestCustomerCase( unittest.TestCase ):
