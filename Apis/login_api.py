@@ -5,7 +5,7 @@ from pithy import request
 from common import public_configure
 from common.utils import sign, get_md5
 
-host = public_configure.base_url
+host = public_configure.gateway_url_ga
 
 
 @sign()

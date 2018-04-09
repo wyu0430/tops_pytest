@@ -8,11 +8,16 @@ active_url_dev = 'http://activity.dev.apitops.com'
 gateway_url_ga = 'http://gateway.apitops.com'
 brokerService_url_dev = 'http://broker-service.dev.apitops.com'
 brokerService_url_test = 'http://broker-service.test.apitops.com'
+brokerService_url_ga = 'http://broker-service.apitops.com'
 active_url_test = 'http://activity.test.apitops.com'
 active_url_beta = 'http://activity.beta.apitops.com'
 active_url_ga = 'http://activity.apitops.com'
 bops_url_test = 'http://bopsadmin.test.apitops.com/'
+bops_url_test = 'http://bopsadmin.test.apitops.com/'
+
 brokeroa_url_test = 'http://brokeroa.test.apitops.com'
+brokeroa_url_ga = 'http://brokeroa.apitops.com'
+
 
 
 class PublicConfigure(object):

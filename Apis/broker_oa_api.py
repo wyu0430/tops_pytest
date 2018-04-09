@@ -17,7 +17,7 @@ import time
 # http://activity.dev.apitops.com/activity/api/v1/swagger.json
 class BrokerCompanyShop( object ):
     def __init__(self):
-        self.base_url = public_configure.brokeroa_url_test
+        self.base_url = public_configure.brokeroa_url_ga
         self.session = make_session()
 
     def getcookie(self, username, password):

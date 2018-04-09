@@ -9,7 +9,7 @@ from common.utils import sign, get_md5
 class Vshop( object ):
 
     def __init__(self):
-        self.base_url = public_configure.brokerService_url_test
+        self.base_url = public_configure.brokerService_url_ga
         self.latitude = 30.222176
         self.longitude = 120.183798
 

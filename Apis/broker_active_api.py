@@ -8,17 +8,17 @@ from common.utils import sign, get_md5
 # http://activity.dev.apitops.com/activity/api/v1/swagger.json
 class ActiveQa( object ):
     def __init__(self):
-        self.base_url = public_configure.active_url_test
+        self.base_url = public_configure.active_url_ga
 
     @sign()
-    @request( url='http://gateway.test.apitops.com/oauth/Authorization/Login', method='post' )
+    @request( url='http://gateway.apitops.com/oauth/Authorization/Login', method='post' )
     def __login(self, username, password):
         """登录接口"""
         json = {
             'agent': 'android',
             'appcode': 'app_broker',
             'loginName': username,
-            'password': get_md5( password )
+            'password': get_md5(password)
         }
 
         return {'json': json}

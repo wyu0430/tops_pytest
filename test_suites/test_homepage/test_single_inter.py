@@ -3,8 +3,7 @@ import unittest
 from Apis.homepage_api import HomePage
 
 
-class Test_Single_Interface(unittest.TestCase):
-
+class TestSingleInterface(unittest.TestCase):
     def test_get_landing_first_page(self):
         """首页get_landing_first_page"""
         homepage = HomePage()
