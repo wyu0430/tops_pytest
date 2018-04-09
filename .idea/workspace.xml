@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c722e1-a311-44c0-b140-ea0b149da2a7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/test_suites/test_broker_active/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test_suites/test_broker_active/test_active_answer/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test_suites/test_broker_active/test_active_answer/test_active_answer1.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test_suites/test_broker_active/test_active_answer/test_active_answer2.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test_suites/test_broker_active/test_active_answer/test_active_bind.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test_suites/test_broker_active/test_active_answer/test_active_qa.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test_suites/test_broker_active/test_active_answer/test_active_qa_auto.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test_suites/test_broker_active/test_active_answer/test_active_qa_auto_2.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test_suites/test_broker_active/test_active_answer/test_active_qa_auto_3.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test_suites/test_broker_active/test_active_answer/test_active_qa_ga.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test_suites/test_broker_active/test_active_draw/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test_suites/test_broker_active/test_active_draw/test_activity_draw.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Apis/broker_active_api.py" afterPath="$PROJECT_DIR$/Apis/broker_active_api.py" />
-      <change beforePath="$PROJECT_DIR$/Apis/broker_active_draw_api.py" afterPath="$PROJECT_DIR$/Apis/broker_active_draw_api.py" />
-      <change beforePath="$PROJECT_DIR$/Apis/broker_center_api.py" afterPath="$PROJECT_DIR$/Apis/broker_center_api.py" />
-      <change beforePath="$PROJECT_DIR$/Apis/broker_oa_api.py" afterPath="$PROJECT_DIR$/Apis/broker_oa_api.py" />
-      <change beforePath="$PROJECT_DIR$/Apis/club_activity_api.py" afterPath="$PROJECT_DIR$/Apis/club_activity_api.py" />
-      <change beforePath="$PROJECT_DIR$/Apis/login_api.py" afterPath="$PROJECT_DIR$/Apis/login_api.py" />
-      <change beforePath="$PROJECT_DIR$/Apis/requests_test.py" afterPath="$PROJECT_DIR$/Apis/requests_test.py" />
-      <change beforePath="$PROJECT_DIR$/Apis/vshop_api.py" afterPath="$PROJECT_DIR$/Apis/vshop_api.py" />
-      <change beforePath="$PROJECT_DIR$/common/public_configure.py" afterPath="$PROJECT_DIR$/common/public_configure.py" />
-      <change beforePath="$PROJECT_DIR$/test_suites/test_homepage/test_single_inter.py" afterPath="$PROJECT_DIR$/test_suites/test_homepage/test_single_inter.py" />
-      <change beforePath="$PROJECT_DIR$/test_suites/test_hztz/test_hztz_sign.py" afterPath="$PROJECT_DIR$/test_suites/test_hztz/test_hztz_sign.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,6 +33,7 @@
     <SUITE FILE_PATH="coverage/tops_pytest$py_test_for_test_customer_single_inter_TestCustomerSingleInterface_test_delete_customer.coverage" NAME="py.test for test_customer_single_inter.TestCustomerSingleInterface.test_delete_customer Coverage Results" MODIFIED="1522206286413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_suites/test_customer" />
     <SUITE FILE_PATH="coverage/tops_pytest$py_test_in_test_hztz_sign_py.coverage" NAME="py.test in test_hztz_sign.py Coverage Results" MODIFIED="1523152211338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_suites/test_hztz" />
     <SUITE FILE_PATH="coverage/tops_pytest$py_test_for_test_hztz_sign_TestHztzSign_test_hztz_sign_case.coverage" NAME="py.test for test_hztz_sign.TestHztzSign.test_hztz_sign_case Coverage Results" MODIFIED="1523180277089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_suites/test_hztz" />
+    <SUITE FILE_PATH="coverage/tops_pytest$py_test_for_test_active_answer1_TestActiveQaCase.coverage" NAME="py.test for test_active_answer1.TestActiveQaCase Coverage Results" MODIFIED="1523240632769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_suites/test_broker_active/test_active_answer" />
     <SUITE FILE_PATH="coverage/tops_pytest$py_test_for_test_customer_case_TestCustomerCase.coverage" NAME="py.test for test_customer_case.TestCustomerCase Coverage Results" MODIFIED="1522218307629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_suites/test_customer" />
   </component>
   <component name="FileEditorManager">
@@ -40,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/Apis/vshop_api.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-663">
-              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding>
                 <element signature="e#16#51#0" expanded="true" />
               </folding>
@@ -52,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/test_suites/test_homepage/test_single_inter.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -62,13 +64,13 @@
         <entry file="file://$PROJECT_DIR$/test_suites/test_homepage/test_homepage_process.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="780">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_hztz_sign.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_hztz_sign.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_suites/test_hztz/test_hztz_sign.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -76,6 +78,42 @@
               <folding>
                 <element signature="e#14#49#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_active.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/db_active.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+              <folding>
+                <marker date="1520323512665" expanded="true" signature="706:755" ph="SELECT * FRO... tact_cd_subject" />
+                <marker date="1520323512665" expanded="true" signature="889:973" ph="SELECT * FRO... tact_cd_subject" />
+                <marker date="1520323512665" expanded="true" signature="988:1073" ph="SELECT * FRO... tact_cd_subject" />
+                <marker date="1520323512665" expanded="true" signature="1343:1401" ph="SELECT * FRO... tb_broker_luckywheel_lives" />
+                <marker date="1520323512665" expanded="true" signature="1606:1754" ph="SELECT COUNT... tb_broker_share" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_suites/test_broker_active/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_active_answer1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_suites/test_broker_active/test_active_answer/test_active_answer1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,36 +148,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage_api.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apis/homepage_api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customer_api.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apis/customer_api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="broker_oa_api.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apis/broker_oa_api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -164,6 +172,7 @@
         <option value="$PROJECT_DIR$/common/public_configure.py" />
         <option value="$PROJECT_DIR$/Apis/vshop_api.py" />
         <option value="$PROJECT_DIR$/test_suites/test_hztz/test_hztz_sign.py" />
+        <option value="$PROJECT_DIR$/test_suites/test_broker_active/test_active_answer/test_active_answer1.py" />
       </list>
     </option>
   </component>
@@ -211,7 +220,14 @@
               <item name="tops_pytest" type="b2602c69:ProjectViewProjectNode" />
               <item name="tops_pytest" type="462c0819:PsiDirectoryNode" />
               <item name="test_suites" type="462c0819:PsiDirectoryNode" />
-              <item name="test_hztz" type="462c0819:PsiDirectoryNode" />
+              <item name="test_broker_active" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tops_pytest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tops_pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="test_suites" type="462c0819:PsiDirectoryNode" />
+              <item name="test_broker_active" type="462c0819:PsiDirectoryNode" />
+              <item name="test_active_answer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,6 +239,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\pytest\tops_pytest\test_suites" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -236,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for test_hztz_sign.TestHztzSign.test_hztz_sign_case">
+  <component name="RunManager" selected="Python tests.py.test for test_active_answer1.TestActiveQaCase">
     <configuration name="requests_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,12 +277,12 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="py.test for test_customer_case.TestCustomerCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for test_active_answer1.TestActiveQaCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_suites/test_customer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_suites/test_broker_active/test_active_answer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -269,7 +290,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_customer_case.TestCustomerCase&quot;" />
+      <option name="_new_target" value="&quot;test_active_answer1.TestActiveQaCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="py.test for test_hztz_sign.TestHztzSign" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -321,19 +342,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test_customer_case.TestCustomerCase" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_hztz_sign.TestHztzSign" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_hztz_sign.TestHztzSign.test_hztz_sign_case" />
-      <item index="3" class="java.lang.String" itemvalue="Python.requests_test" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_hztz_sign.py" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test_hztz_sign.TestHztzSign" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_hztz_sign.TestHztzSign.test_hztz_sign_case" />
+      <item index="2" class="java.lang.String" itemvalue="Python.requests_test" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_hztz_sign.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_active_answer1.TestActiveQaCase" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test_hztz_sign.TestHztzSign.test_hztz_sign_case" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_hztz_sign.TestHztzSign" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_hztz_sign.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python.requests_test" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_customer_case.TestCustomerCase" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test_active_answer1.TestActiveQaCase" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_hztz_sign.TestHztzSign.test_hztz_sign_case" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_hztz_sign.TestHztzSign" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_hztz_sign.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python.requests_test" />
       </list>
     </recent_temporary>
   </component>
@@ -354,8 +375,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_hztz_sign_TestHztzSign - 2018.04.08 at 17h 15m 51s.xml">
-      <configuration name="py.test for test_hztz_sign.TestHztzSign" configurationId="tests" />
+    <history-entry file="py_test_for_test_active_answer1_TestActiveQaCase - 2018.04.09 at 10h 24m 01s.xml">
+      <configuration name="py.test for test_active_answer1.TestActiveQaCase" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_for_test_hztz_sign_TestHztzSign - 2018.04.08 at 17h 16m 23s.xml">
       <configuration name="py.test for test_hztz_sign.TestHztzSign" configurationId="tests" />
@@ -390,11 +411,11 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996634" sideWeight="0.37660944" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996634" sideWeight="0.62339056" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21997756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21997756" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16523606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -437,7 +458,7 @@
         <state relative-caret-position="300">
           <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
-            <element signature="e#16#51#0" expanded="true" />
+            <element signature="e#16#51#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -546,7 +567,7 @@
         <state relative-caret-position="240">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#16#51#0" expanded="true" />
+            <element signature="e#16#51#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -594,7 +615,7 @@
     <entry file="file://$PROJECT_DIR$/Apis/broker_oa_api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -626,7 +647,7 @@
     <entry file="file://$PROJECT_DIR$/Apis/vshop_api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-663">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="e#16#51#0" expanded="true" />
           </folding>
@@ -636,7 +657,7 @@
     <entry file="file://$PROJECT_DIR$/test_suites/test_homepage/test_single_inter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -644,7 +665,7 @@
     <entry file="file://$PROJECT_DIR$/test_suites/test_homepage/test_homepage_process.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -656,6 +677,36 @@
           <folding>
             <element signature="e#14#49#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/db_active.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <marker date="1520323512665" expanded="true" signature="706:755" ph="SELECT * FRO... tact_cd_subject" />
+            <marker date="1520323512665" expanded="true" signature="889:973" ph="SELECT * FRO... tact_cd_subject" />
+            <marker date="1520323512665" expanded="true" signature="988:1073" ph="SELECT * FRO... tact_cd_subject" />
+            <marker date="1520323512665" expanded="true" signature="1343:1401" ph="SELECT * FRO... tb_broker_luckywheel_lives" />
+            <marker date="1520323512665" expanded="true" signature="1606:1754" ph="SELECT COUNT... tb_broker_share" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_suites/test_broker_active/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_suites/test_broker_active/test_active_answer/test_active_answer1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
