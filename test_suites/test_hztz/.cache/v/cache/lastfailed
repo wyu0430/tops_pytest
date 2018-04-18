@@ -1,1 +1,3 @@
-{}
+{
+  "test_sign.py::TestHztzSign::()::test_hztz_sign_case": true
+}

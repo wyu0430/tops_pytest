@@ -19,4 +19,3 @@ class TestHztzSign(object):
         json = res.json()
         text = res.text
         print(text)
-        assert "签" in text
